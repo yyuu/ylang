@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+def fact(n)
+  if(n <= 1)
+    return 1
+  else
+    return n * fact(n - 1)
+  end
+end
+
+n = 3
+p(fact(n))

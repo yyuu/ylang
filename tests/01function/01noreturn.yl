@@ -1,0 +1,6 @@
+
+def nr_hello()
+  "hello, world\n"
+end
+
+print(nr_hello())

@@ -1,0 +1,6 @@
+
+def hello()
+  return "hello, world\n"
+end
+
+print(hello())
